@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<button onclick='jscalljava("包青天")'>获取当前环境</button>
+
+</body>
+
+<script type="text/javascript">
+function jscalljava(content){
+    platform=qb_web_platform.checkCurrentPlatform()
+    alert('当前环境:' $platform)
+}
+
+
+</script>
+</html>
